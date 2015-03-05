@@ -15,13 +15,13 @@ specific table and go in ``src/Model/Table``. The file we'll be creating will
 be saved to ``src/Model/Table/ArticlesTable.php``. The completed file should
 look like this::
 
-    // src/Model/Table/ArticlesTable.php
+    // src/Model/Table/Article.php
 
     namespace App\Model\Table;
 
     use Cake\ORM\Table;
 
-    class ArticlesTable extends Table
+    class Article extends Table
     {
         public function initialize(array $config)
         {
